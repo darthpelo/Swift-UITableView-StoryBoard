@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet var tableView : UITableView
     
-    var items:Dictionary<String,String>=["Pizza Margherita":"Tomato, mozzarella, oregano ","Pizza viennese":"tomato, mozzarella, German sausage, oregano, oil", "Pizza capricciosa":"mozzarella, tomato, mushrooms, artichokes, cooked ham, olives, oil"]
+    var items: Dictionary <String,String> = ["Pizza Margherita":"Tomato, mozzarella, oregano ","Pizza viennese":"tomato, mozzarella, German sausage, oregano, oil", "Pizza capricciosa":"mozzarella, tomato, mushrooms, artichokes, cooked ham, olives, oil"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +35,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        performSegueWithIdentifier("miaview", sender: self.view)
         println("Hai selezionato: \(indexPath.row)!")
     }
 

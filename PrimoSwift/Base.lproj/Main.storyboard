@@ -42,6 +42,7 @@
                                         <connections>
                                             <outlet property="mioSubtitle" destination="Vdk-3H-Q0H" id="xmD-L2-jqk"/>
                                             <outlet property="mioTesto" destination="nRa-4q-dY8" id="XlX-EX-vfp"/>
+                                            <segue destination="wt1-1o-yeH" kind="show" id="Ans-Cm-XMZ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -56,12 +57,11 @@
                     <navigationItem key="navigationItem" id="VAX-yg-Znw"/>
                     <connections>
                         <outlet property="tableView" destination="z8V-gA-aXK" id="1MW-es-mNd"/>
-                        <segue destination="wt1-1o-yeH" kind="show" identifier="miaview" id="dYl-Nj-D9E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="627" y="225"/>
+            <point key="canvasLocation" x="378" y="225"/>
         </scene>
         <!--My View Controller-->
         <scene sceneID="6vF-uk-4oA">
@@ -84,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MOq-jH-Lzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1247" y="232"/>
+            <point key="canvasLocation" x="870" y="225"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VVF-3E-rdu">
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IAs-lr-i4o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1763" y="231"/>
+            <point key="canvasLocation" x="1348" y="225"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jF7-Ng-FfS">

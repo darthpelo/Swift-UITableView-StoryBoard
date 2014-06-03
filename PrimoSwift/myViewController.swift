@@ -22,10 +22,10 @@ class myViewController: UIViewController {
         super.viewDidLoad()
 
     //Image
-        var imgURL: NSURL = NSURL(string: mioUrl)
-        var imgData: NSData = NSData(contentsOfURL: imgURL)
-        let imageDetail=UIImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 300))
-        imageDetail.image=UIImage(data: imgData)
+        var imgURL = NSURL(string: mioUrl)
+        var imgData = NSData(contentsOfURL: imgURL)
+        let imageDetail = UIImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 300))
+        imageDetail.image = UIImage(data: imgData)
         self.view.addSubview(imageDetail)
         
     //Button
